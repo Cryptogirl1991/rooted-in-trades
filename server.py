@@ -56,7 +56,7 @@ def home():
 def positions():
     try:
         data = phemex_get(
-            "/g-accounts/accountPositions",
+            "/g-accounts/positions",
             "currency=USDT"
         )
 
